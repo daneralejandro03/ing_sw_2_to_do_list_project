@@ -11,11 +11,15 @@
     "type-check": "vue-tsc --build"
   },
   "dependencies": {
+    "@mdi/font": "^7.4.47",
     "@nestjs/config": "^4.0.1",
+    "axios": "^1.8.2",
     "dotenv": "^16.4.7",
     "pinia": "^3.0.1",
+    "sass": "^1.85.1",
     "vue": "^3.5.13",
-    "vue-router": "^4.5.0"
+    "vue-router": "^4.5.0",
+    "vuetify": "^3.7.15"
   },
   "devDependencies": {
     "@tsconfig/node22": "^22.0.0",
@@ -24,6 +28,7 @@
     "@vitejs/plugin-vue-jsx": "^4.1.1",
     "@vue/tsconfig": "^0.7.0",
     "npm-run-all2": "^7.0.2",
+    "sass-embedded": "^1.85.1",
     "typescript": "~5.7.3",
     "vite": "^6.1.0",
     "vite-plugin-vue-devtools": "^7.7.2",
